@@ -1,6 +1,5 @@
-# Main TF DevOps Test Assignments
-
-# Azure Provider source and version being used
+# Main Terrform File 
+# Provider Source/Version
 terraform {
   required_providers {
     azurerm = {
