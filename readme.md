@@ -7,7 +7,7 @@ Macro Life Terraform Assignment
 
 	b. subnet.tf 			-	To Create virtual network create subnets
 
-	c. nwsecuritygroup.tf 	-	To create NSG that will allow access on port 80 and 443
+	c. nwsecuritygroup.tf 		-	To create NSG that will allow access on port 80 and 443
 
 	d. storage.tf 			-	To create Storage account
 
