@@ -1,5 +1,5 @@
 # Main Terrform File 
-# Provider Source/Version
+# Provider information
 terraform {
   required_providers {
     azurerm = {
@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-# Configuration for Provider
+#Provider Configuration
 provider "azurerm" {
   features {}
 }
@@ -17,5 +17,5 @@ provider "azurerm" {
 #Sample Configuration for Resource Group 
 resource "azurerm_resource_group" "maersk" {
   name     = "lab-mrsk"
-  location = "West Europe"
+  location = "eastasia"
 }
